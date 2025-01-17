@@ -7,7 +7,7 @@ const nextButton = document.querySelector('.next');
 let currentIndex = 0;
 
 function updateSliderPosition() {
-	slider.style.transform = 'translateX(-${currentIndex * 100}%)';
+	slider.style.transform = `translateX(-${currentIndex * 100}%)`;
 }
 
 nextButton.addEventListener('click', () => {
